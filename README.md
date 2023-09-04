@@ -1,10 +1,14 @@
 # HousePrice_Prediction
 Overview
+
 The project aims to build a machine learning model that predicts housing prices based on a given dataset. This dataset consists of 506 rows and 14 columns, providing the foundation for our analysis.
+
 Project Objective
+
 This is a regression task, with the goal of predicting the median value of owner-occupied homes (MEDV) in thousands of dollars.
 
 Libraries Used
+
 numpy
 pandas
 scikit-learn
@@ -14,7 +18,9 @@ matplotlib
 seaborn
 plotly
 joblib
+
 Project Steps
+
 1. Data Preprocessing and Exploration
 Import necessary libraries for data analysis and visualization.
 Load the dataset and perform basic checks, including checking for missing values, duplicates, and zero variance columns.
@@ -42,7 +48,9 @@ Create a graphical user interface (GUI) for users to input data and get housing 
 Explore deploying the chosen model as an API for integration into websites or applications.
 
 Project Results
+
 The project successfully built a regression model using XGBoost that can predict housing prices based on various features. The model achieved an R-squared value of 0.8985 on the test data, indicating strong predictive performance.
 
 Future Work
+
 Future work could include deploying the model as an API for easy integration into applications or websites, making it accessible to a broader audience.
